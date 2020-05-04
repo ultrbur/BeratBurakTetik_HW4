@@ -1,0 +1,69 @@
+﻿@model IEnumerable<CetBookStore.Models.Book>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PageCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Authors)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PressYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StockCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>*@
+<div class="product_grid">
+    <div class="product_grid_border"></div>
+    @foreach (var item in Model)
+    {
+        <div class="product_item is_new">
+            <div class="product_border"></div>
+            @{
+                var imageUrl = item.BookImages?.FirstOrDefault()?.FileName ?? "noimage.jpg";
+            }
+            <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="~/UserImages/@imageUrl" alt=""></div>
+            <div class="product_content">
+                <div class="product_price">@item.Price</div>
+                <div class="product_name"><div><a href="#" tabindex="0">@item.Title</a></div></div>
+            </div>
+            <div class="product_fav"><i class="fas fa-heart"></i></div>
+            <ul class="product_marks">
+                <li class="product_mark product_discount">-25%</li>
+                <li class="product_mark product_new">new</li>
+            </ul>
+        </div>
+    }
+    </div>
+    @*</tbody>
+        </table>*@
