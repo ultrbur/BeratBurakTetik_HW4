@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Berat Burak Tetik\\Desktop\\workspace\\322\\CetBookStore-master\\CetBookStore\\CetBookStore.csproj": {}
+    "C:\\Users\\Berat Burak Tetik\\Desktop\\GitHub\\BeratBurakTetik_HW4\\CetBookStore\\CetBookStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Berat Burak Tetik\\Desktop\\workspace\\322\\CetBookStore-master\\CetBookStore\\CetBookStore.csproj": {
+    "C:\\Users\\Berat Burak Tetik\\Desktop\\GitHub\\BeratBurakTetik_HW4\\CetBookStore\\CetBookStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berat Burak Tetik\\Desktop\\workspace\\322\\CetBookStore-master\\CetBookStore\\CetBookStore.csproj",
+        "projectUniqueName": "C:\\Users\\Berat Burak Tetik\\Desktop\\GitHub\\BeratBurakTetik_HW4\\CetBookStore\\CetBookStore.csproj",
         "projectName": "CetBookStore",
-        "projectPath": "C:\\Users\\Berat Burak Tetik\\Desktop\\workspace\\322\\CetBookStore-master\\CetBookStore\\CetBookStore.csproj",
+        "projectPath": "C:\\Users\\Berat Burak Tetik\\Desktop\\GitHub\\BeratBurakTetik_HW4\\CetBookStore\\CetBookStore.csproj",
         "packagesPath": "C:\\Users\\Berat Burak Tetik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Berat Burak Tetik\\Desktop\\workspace\\322\\CetBookStore-master\\CetBookStore\\obj\\",
+        "outputPath": "C:\\Users\\Berat Burak Tetik\\Desktop\\GitHub\\BeratBurakTetik_HW4\\CetBookStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

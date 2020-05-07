@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4J0K/LgRihDTVEpDhcwP1g9PM4DmbfsnpFKF7tg6eQW3FUSY0OTiomHajMmRfBphNMdqRNkX0nGRnqNQWXXNPQ==",
+  "dgSpecHash": "gLwzg0UlJDc7l8pavuZOpCkC1+tstI7dHrmK4i7f3BJpSgm51mcNDbP/qVXPCs1Lm5b0l/B/GUr1khgHZh4gTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Berat Burak Tetik\\Desktop\\workspace\\322\\CetBookStore-master\\CetBookStore\\CetBookStore.csproj",
+  "projectFilePath": "C:\\Users\\Berat Burak Tetik\\Desktop\\GitHub\\BeratBurakTetik_HW4\\CetBookStore\\CetBookStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berat Burak Tetik\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.0\\microsoft.aspnetcore.cryptography.internal.3.1.0.nupkg.sha512",
     "C:\\Users\\Berat Burak Tetik\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.0\\microsoft.aspnetcore.cryptography.keyderivation.3.1.0.nupkg.sha512",
